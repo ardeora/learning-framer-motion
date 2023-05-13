@@ -18,7 +18,7 @@ const arrow = {
 export const Refresh = ({ onClick }: { onClick: () => void }) => {
   return (
     <motion.div
-      className="refresh border border-blue-500 stroke-blue-600 fill-blue-600"
+      className="refresh border border-green-500 stroke-0 stroke-green-400 fill-green-400"
       onClick={onClick}
       variants={button}
       initial="rest"
